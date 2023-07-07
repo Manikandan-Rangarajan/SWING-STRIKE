@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    color: #FFCDA8;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/background\ image\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #F6FFA6;
+    font-family:'Geologica', sans-serif;
+    padding: 30px;
+    height: 93vh;
+    overflow: hidden;
+}
+
+.boxone{
+    width: 150px;
+    height:150px;
+    margin: 30px;
+    background-image: linear-gradient(#00DFA2,#116D6E);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boxtwo{
+    width: 150px;
+    height:150px;
+    margin: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(#00DFA2,#116D6E);
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxone:hover{
+    opacity: 50%;
+    color: black;
+}
+
+.boxtwo:hover{
+    opacity: 50%;
+    color: black;
+}
+
+.result{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin: 50px;
+}
+
+
+.sol{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color:#ff0060;
+    text-align: center;
+}
+
+.option{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color:#ff0060;
+}
+
+.choice{
+    display: flex;
+   
+}
+
+.btn1{
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px; 
+    background-color: #f7a854;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn2{
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px; 
+    background-color: #f7a854;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: #ffffff;
+    color: #f7a854;
+    transition: 0.7s;
+}
+
+.btn2:hover{
+    background: #ffffff;
+    color: #f7a854;
+    transition: 0.7s;
+}
+
+.newOne{
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 400px; 
+    background-color: #f7a854;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.butt{
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 500px; 
+    background-color: #f7a854;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.butt:hover{
+    background: #ffffff;
+    color: #f7a854;
+    transition: 0.7s;
+}
+
+@media (min-width: 300px) and (max-width: 425px) {
+    .boxone{
+        width: 100px;
+        height: 100px;
+        margin: auto 30px;
+    }
+    .boxtwo{
+        width: 100px;
+        height: 100px;
+        margin: auto 30px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+}
